@@ -1,0 +1,39 @@
+
+
+
+.navbar{
+    width: 1140px;
+    height: 80px;
+    margin: 0px auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 40%;
+}
+.menu-list{
+    text-align: right;
+    width: 50%;
+    padding-right: 20px;
+}
+.menu-list a{
+    color: #979a9f;
+    margin-right: 40px;
+}
+.cart{
+    width: 10%;
+}
+.menu-list a:hover{
+    color: black;
+}
+.menu-list i{
+    font-size: 10px;
+}
+.menu-list span{
+    font-weight: 100;
+    color: #474748;
+    font-size: 20px;
+}
