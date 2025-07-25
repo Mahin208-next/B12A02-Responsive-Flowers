@@ -1,4 +1,21 @@
-
+body{
+    margin: 0px auto;
+}
+.bg{
+    background-color: #e95a08;
+}
+.primary{
+    color: #e95a08;
+}
+.color-text{
+    color: #979a9f;
+}
+.menu-color{
+    color: #f5f8ff;
+}
+a{
+    text-decoration: none;
+}
 
 
 .navbar{
@@ -162,7 +179,7 @@
     height: 570px;
 }
 .f-img {
-    background-image: url(img/flower-store.png);
+    background-image: url(B12A02-Responsive-Flowers-main/assets/flower-store.png);
     width: 100%;
     background-repeat: no-repeat;
     height: 550px;
@@ -205,7 +222,7 @@
     gap: 8px;
 }
 .div-gal1{
-    background-image: url(img/deal-bloom.png);
+    background-image: url(B12A02-Responsive-Flowers-main/assets/deal-bloom.png);
     border-radius: 10px;
     background-repeat: no-repeat;
     height: 190px;
@@ -214,7 +231,7 @@
 }  
 
 .div-gal2 {
-    background-image: url(img/deal-ana.png);
+    background-image: url(B12A02-Responsive-Flowers-main/assets/deal-ana.png);
     border-radius: 10px;
     grid-column-start: 1;
     grid-row-start: 2;
@@ -239,7 +256,7 @@
 }
 
 .div-gal3 {
-    background-image: url(img/deal-zabo.png);
+    background-image: url(B12A02-Responsive-Flowers-main/assets/deal-zabo.png);
     border-radius: 10px;
     grid-column: span 2 / span 2;
     grid-row: span 2 / span 2;
@@ -256,4 +273,41 @@
 .div-gal3 a{
     color: white;
     font-size: 1.3rem;
+}
+
+
+.news{
+    width: 1100px;
+    height: 573px;
+    background-image: url(B12A02-Responsive-Flowers-main/assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.news-list{
+    margin-top: -200px;
+
+}
+.news h1{
+    font-size: 3rem;
+    color: white;
+}
+.news-in{
+   margin-left: -70px;
+}
+#in{
+    height: 40px;
+    width: 550px;
+}
+.sub{
+    height: 45px;
+    width: 150px;
+    color: white;
+    border: none;
+    margin-left: -5px;
+    outline: none;
 }
