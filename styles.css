@@ -37,3 +37,37 @@
     color: #474748;
     font-size: 20px;
 }
+
+
+.baner-main{
+    width: 1140px;
+    height: 461px;
+}
+.baner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.banner-t{
+    width: 500px;
+    margin: 0px auto;
+}
+.banner-t h1{
+    font-size: 3rem;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+.banner-t p{
+    margin-top: 20px;
+    font-size: 1rem;
+    width: 350px;
+}
+.banner{
+    width: 500px;
+    height: 355px;
+    margin: 0px auto;
+}
+.banner img{
+    height: 300px;
+}
